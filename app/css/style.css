@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+  font-family: Montserrat; }
+
+.Quiz {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.Title {
+  font-size: 3rem;
+  margin: 10px; }
+
+.Subtitle {
+  font-size: 2rem;
+  margin: 10px; }
+
+.Question__container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px; }
+
+.Question__title {
+  font-size: 1.3rem;
+  font-family: Montserrat serif;
+  margin-bottom: 15px;
+  font-weight: 600; }
+
+.Question__answer {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 10px; }
+
+.input {
+  margin-right: 10px; }
+
+.Buttons {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.btn {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px 0;
+  height: 40px;
+  width: 100%;
+  font-size: 1rem; }
+
+.btn-small {
+  display: flex;
+  justify-content: space-between; }
+  .btn-small .btn {
+    width: 45%; }
+
+.scoreBox {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  font-size: 1.4rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  display: none; }
+  .scoreBox .scoreBox__title {
+    font-size: 1.3rem; }
+  .scoreBox .scoreBox__score {
+    font-size: 1.6rem;
+    padding-top: 20px;
+    font-weight: bold;
+    color: blue; }
+  .scoreBox .scoreBox__smallTxt {
+    font-size: 0.8rem;
+    margin-top: 5px; }
+
+.correct {
+  background-color: rgba(0, 255, 0, 0.8); }
+
+.incorrect {
+  background-color: rgba(255, 0, 0, 0.8); }
