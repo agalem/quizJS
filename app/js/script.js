@@ -82,3 +82,5 @@ btnReset.onclick = (e) => {
     reset();
     btnSubmit.disabled = false;
 };
+
+console.log(window.innerWidth);

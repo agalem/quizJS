@@ -88,3 +88,10 @@ body {
 
 .incorrect {
   background-color: rgba(255, 0, 0, 0.8); }
+
+@media all and (max-width: 870px) {
+  .scoreBox {
+    bottom: 120px;
+    opacity: 0.6; }
+    .scoreBox:hover {
+      opacity: 1; } }
